@@ -9,7 +9,7 @@ You can clone this project to your system to use this feature.
 Make sure that you have installed python3 and django framwork in your system.
 
 
-To install python3 type in your terminal $ apt-get install python 3  
+To install python3 type in your terminal  $ apt-get install python3  
 
 To install django  $ pip install django
 
