@@ -11,7 +11,7 @@ Make sure that you have installed python3 and django framwork in your system.
 
 To install python3 type in your terminal $ apt-get install python 3  
 
-To install django     pip install django
+To install django  $ pip install django
 
 After cloning these files  go to your terminal or powershell window and navigate the passgen-django folder
 
