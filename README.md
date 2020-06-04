@@ -8,16 +8,21 @@ makes your password unhackable even rememberable.
 You can clone this project to your system to use this feature. 
 Make sure that you have installed python3 and django framwork in your system.
 
-To install python3 type in your terminal     apt-get install python 3
+
+To install python3 type in your terminal $ apt-get install python 3  
+
 To install django     pip install django
 
 After cloning these files  go to your terminal or powershell window and navigate the passgen-django folder
 
 To run the server $ python manage.py runserver
+
 after the commad output-
+                           
                            Django version 3.0.5, using settings 'passgen.settings'
                            Starting development server at http://127.0.0.1:8000/
                            Quit the server with CONTROL-C.
+                           
                            
 Navigate to http:127.0.0.1:8000/ in your brouwser and enjoy..
 
