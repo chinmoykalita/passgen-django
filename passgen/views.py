@@ -19,6 +19,7 @@ def result(request):
     password = securePassword(password)
         
 
-    params = {'rpass':password}        
+    params = {'rpass':password}
+            
     return render(request, 'result.html', params)
 
