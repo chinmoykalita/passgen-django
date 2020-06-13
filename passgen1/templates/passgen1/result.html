@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a class="navbar-brand" href="/">PassGen.io</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,12 +45,12 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="button">Search</button>
             </form>
         </div>
 
     </nav>
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
         <strong>Congratulations!!</strong> Your password has been converted.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -61,11 +61,11 @@
 
     <div class="container">
         <p style="color: rgb(31, 29, 29); font-family: Arial, Helvetica, sans-serif;">
-            <b>Your Generated password is</b> 
+            <b>Your Generated password is</b>
             <br>
 
-            <input type="text" value="{{rpass}}" id="GfGInput">
-            <button onclick="GeeksForGeeks()">Copy</button>
+            <input type="text" class="form-control my-2" value="{{rpass}}" id="GfGInput">
+            <button class="btn btn-danger" onclick="GeeksForGeeks()">Copy</button>
             <script>
                 function GeeksForGeeks() {
                     var copyGfGText = document.getElementById("GfGInput");
@@ -74,9 +74,6 @@
                     alert("Copied: " + copyGfGText.value);
                 }  
             </script>
-
-
-
         </p>
     </div>
 
@@ -92,8 +89,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
