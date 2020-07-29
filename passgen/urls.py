@@ -17,10 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin210/', admin.site.urls),
     path('', include('passgen1.urls')),
-    
-    
+
+
 ]
 
 
