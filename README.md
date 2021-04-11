@@ -26,6 +26,6 @@ after the commad output-
                            
 Navigate to http:127.0.0.1:8000/ in your brouwser and enjoy..
 
-Please contribute to this project to make it more powerfull if you want to.
+Please contribute to this project to make it more powerfull.
 
                            
