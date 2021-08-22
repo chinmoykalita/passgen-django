@@ -65,13 +65,13 @@
             <br>
 
             <input type="text" class="form-control my-2" value="{{rpass}}" id="GfGInput">
-            <button class="btn btn-danger" onclick="GeeksForGeeks()">Copy</button>
+            <button id="cpi" class="btn btn-danger" onclick="GeeksForGeeks()">Copy</button>
             <script>
                 function GeeksForGeeks() {
                     var copyGfGText = document.getElementById("GfGInput");
                     copyGfGText.select();
                     document.execCommand("copy");
-                    alert("Copied: " + copyGfGText.value);
+                    document.getElementById("cpi").innerHTML = 'Copied'
                 }  
             </script>
         </p>

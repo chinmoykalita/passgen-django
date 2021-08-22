@@ -9,5 +9,6 @@ admin.site.site_title = 'Welcome to passgen site admin'
 urlpatterns = [
     path('', views.index),
     path('result/', views.result, name="generated"),
+    path('recharge/', views.recharge)
     
 ]

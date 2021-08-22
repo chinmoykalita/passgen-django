@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Userpass
+import requests
+import json
 
 def index(request):
     return render(request, 'passgen1/index.html')
@@ -36,3 +38,13 @@ def result(request):
     else:
         return HttpResponse("<h2>LOL Error, You can't access this page without entering the password;)</h2>")    
 
+def recharge(request):
+    API_KEY = '9wAdHsUZTbOBeQWc6Kml7N28fIXvq5jREMLkaVn1JDzx0SpCui'
+    URL = 'https://api.payben.in/recharge-api/balance.php?api_key=9wAdHsUZTbOBeQWc6Kml7N28fIXvq5jREMLkaVn1JDzx0SpCui'
+    # params={'key': '9wAdHsUZTbOBeQWc6Kml7N28fIXvq5jREMLkaVn1JDzx0SpCui'}
+    response = requests.get(URL,  headers={"User-Agent": "XY"})
+    print(response)
+    response = response.json()
+
+    print(response)
+    return HttpResponse(str(response))

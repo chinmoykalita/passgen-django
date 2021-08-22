@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8c@3sew5pwbitplzc6u7)!5p-tkka#(1n$!r6!q&3&$l8b8y5m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['chinmoykalita.pythonanywhere.com']
+ALLOWED_HOSTS = ['chinmoykalita.pythonanywhere.com', 'localhost', '05a26a996f69.ngrok.io']
 
 
 # Application definition
