@@ -12,3 +12,9 @@ def string_to_hash(input):
     print(conv)
     ad = conv * 3 - 4
     return ad
+
+def function_to_build(request):
+    pass
+
+def new_function(list: list):
+    return len(list)
