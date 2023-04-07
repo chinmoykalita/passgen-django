@@ -18,3 +18,7 @@ def function_to_build(request):
 
 def new_function(list: list):
     return len(list)
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
