@@ -60,3 +60,36 @@ def list_function_to_build(new, can, func):
 def list_function_to_build(new, can, func):
     print(new+3)
     return
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+
+    def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+
+    def list_function_to_build(new, can, func):
+    print(new+3)
+    return
+
+
+def list_function_to_build(new, can, func):
+    print(new+3)
+    return
