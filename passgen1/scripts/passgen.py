@@ -9,3 +9,7 @@ def edit_in_new_file(request):
         "person": "onasodf203f",
         "new": True
     }
+
+if True == True:
+    # this is a stupid function 
+    edit_in_new_file("stupi")
