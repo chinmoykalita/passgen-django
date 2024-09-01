@@ -1,13 +1,9 @@
-# passgen-django
-Developer - Chinmoy Kalita
-
-This is a django website which generates strong and rememberable passwords from your existing one.
+This is a django website which generates strong but rememberable passwords from your existing one.
 Your can enter your password here and the algoriithm will convert it into a stronger one which
 makes your password unhackable even rememberable.
 
 You can clone this project to your system to use this feature. 
 Make sure that you have installed python3 and django framwork in your system.
-
 
 To install python3 type in your terminal   $ apt-get install python3  
 
@@ -24,8 +20,8 @@ after the commad output-
                            Quit the server with CONTROL-C.
                            
                            
-Navigate to http:127.0.0.1:8000/ in your brouwser and enjoy..
+Navigate to http:127.0.0.1:8000/ in your browser and enjoy..
 
-Please contribute to this project to make it more powerfull.
+You can contribute to this project to make it more powerful.
 
                            
